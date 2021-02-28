@@ -1,5 +1,4 @@
 import React from "react"
-import ReactDOM from "react-dom"
 
 // NOTE: The JSX below is a bit invalid, since I didn't convert the properties
 //       such as `class` to `className`.
@@ -65,5 +64,4 @@ class HelloMessage extends React.Component {
   }
 }
 
-var mountNode = document.getElementById("app")
-ReactDOM.render(<HelloMessage name="ORIGIN" />, mountNode)
+module.exports = HelloMessage;
